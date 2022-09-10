@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Wannabe Pong", "Wannabe Pong\Wannabe Pong.csproj", "{3437E0DD-9A95-4BFD-83D2-67B61947FA62}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{3437E0DD-9A95-4BFD-83D2-67B61947FA62}.Debug.ActiveCfg = Debug|.NET
+		{3437E0DD-9A95-4BFD-83D2-67B61947FA62}.Debug.Build.0 = Debug|.NET
+		{3437E0DD-9A95-4BFD-83D2-67B61947FA62}.Release.ActiveCfg = Release|.NET
+		{3437E0DD-9A95-4BFD-83D2-67B61947FA62}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "randins", "http://companyaspnet/donhubbard/randins/randins.csproj", "{C40D6751-F5E0-49F7-8850-4899B48C80D2}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{C40D6751-F5E0-49F7-8850-4899B48C80D2}.Debug.ActiveCfg = Debug|.NET
+		{C40D6751-F5E0-49F7-8850-4899B48C80D2}.Debug.Build.0 = Debug|.NET
+		{C40D6751-F5E0-49F7-8850-4899B48C80D2}.Release.ActiveCfg = Release|.NET
+		{C40D6751-F5E0-49F7-8850-4899B48C80D2}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

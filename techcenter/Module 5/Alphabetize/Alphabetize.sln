@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alphabetize", "Alphabetize.csproj", "{ACCEC97C-4C01-425D-93F8-B925119E20BE}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{ACCEC97C-4C01-425D-93F8-B925119E20BE}.Debug.ActiveCfg = Debug|.NET
+		{ACCEC97C-4C01-425D-93F8-B925119E20BE}.Debug.Build.0 = Debug|.NET
+		{ACCEC97C-4C01-425D-93F8-B925119E20BE}.Release.ActiveCfg = Release|.NET
+		{ACCEC97C-4C01-425D-93F8-B925119E20BE}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

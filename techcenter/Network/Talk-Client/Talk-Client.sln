@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Talk-Client", "Talk-Client\Talk-Client.csproj", "{75E6BED7-6A30-4B4C-848D-D9E02399575A}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{75E6BED7-6A30-4B4C-848D-D9E02399575A}.Debug.ActiveCfg = Debug|.NET
+		{75E6BED7-6A30-4B4C-848D-D9E02399575A}.Debug.Build.0 = Debug|.NET
+		{75E6BED7-6A30-4B4C-848D-D9E02399575A}.Release.ActiveCfg = Release|.NET
+		{75E6BED7-6A30-4B4C-848D-D9E02399575A}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

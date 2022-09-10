@@ -1,0 +1,11 @@
+F:\Users\donovan\My Documents\Code\Ultra Space\Ultra Space\bin\x86\Debug\Ultra Space.exe
+F:\Users\donovan\My Documents\Code\Ultra Space\Ultra Space\bin\x86\Debug\Ultra Space.pdb
+F:\Users\donovan\My Documents\Code\Ultra Space\Ultra Space\obj\x86\Debug\Ultra_Space.About.resources
+F:\Users\donovan\My Documents\Code\Ultra Space\Ultra Space\obj\x86\Debug\Ultra_Space.Contols.resources
+F:\Users\donovan\My Documents\Code\Ultra Space\Ultra Space\obj\x86\Debug\Ultra_Space.Form1.resources
+F:\Users\donovan\My Documents\Code\Ultra Space\Ultra Space\obj\x86\Debug\Ultra_Space.Form2.resources
+F:\Users\donovan\My Documents\Code\Ultra Space\Ultra Space\obj\x86\Debug\Ultra_Space.How.resources
+F:\Users\donovan\My Documents\Code\Ultra Space\Ultra Space\obj\x86\Debug\Ultra Space.csproj.GenerateResource.cache
+F:\Users\donovan\My Documents\Code\Ultra Space\Ultra Space\obj\x86\Debug\Ultra Space.csproj.CoreCompileInputs.cache
+F:\Users\donovan\My Documents\Code\Ultra Space\Ultra Space\obj\x86\Debug\Ultra Space.exe
+F:\Users\donovan\My Documents\Code\Ultra Space\Ultra Space\obj\x86\Debug\Ultra Space.pdb

@@ -1,0 +1,105 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:http="http://schemas.xmlsoap.org/wsdl/http/" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:s="http://www.w3.org/2001/XMLSchema" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:tns="http://tempuri.org/" xmlns:tm="http://microsoft.com/wsdl/mime/textMatching/" xmlns:mime="http://schemas.xmlsoap.org/wsdl/mime/" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <s:schema elementFormDefault="qualified" targetNamespace="http://tempuri.org/">
+      <s:element name="toPigLatin">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="textToTranslate" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="toPigLatinResponse">
+        <s:complexType>
+          <s:sequence>
+            <s:element minOccurs="0" maxOccurs="1" name="toPigLatinResult" type="s:string" />
+          </s:sequence>
+        </s:complexType>
+      </s:element>
+      <s:element name="string" nillable="true" type="s:string" />
+    </s:schema>
+  </wsdl:types>
+  <wsdl:message name="toPigLatinSoapIn">
+    <wsdl:part name="parameters" element="tns:toPigLatin" />
+  </wsdl:message>
+  <wsdl:message name="toPigLatinSoapOut">
+    <wsdl:part name="parameters" element="tns:toPigLatinResponse" />
+  </wsdl:message>
+  <wsdl:message name="toPigLatinHttpGetIn">
+    <wsdl:part name="textToTranslate" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="toPigLatinHttpGetOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:message name="toPigLatinHttpPostIn">
+    <wsdl:part name="textToTranslate" type="s:string" />
+  </wsdl:message>
+  <wsdl:message name="toPigLatinHttpPostOut">
+    <wsdl:part name="Body" element="tns:string" />
+  </wsdl:message>
+  <wsdl:portType name="piglatinSoap">
+    <wsdl:operation name="toPigLatin">
+      <wsdl:input message="tns:toPigLatinSoapIn" />
+      <wsdl:output message="tns:toPigLatinSoapOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="piglatinHttpGet">
+    <wsdl:operation name="toPigLatin">
+      <wsdl:input message="tns:toPigLatinHttpGetIn" />
+      <wsdl:output message="tns:toPigLatinHttpGetOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:portType name="piglatinHttpPost">
+    <wsdl:operation name="toPigLatin">
+      <wsdl:input message="tns:toPigLatinHttpPostIn" />
+      <wsdl:output message="tns:toPigLatinHttpPostOut" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:binding name="piglatinSoap" type="tns:piglatinSoap">
+    <soap:binding transport="http://schemas.xmlsoap.org/soap/http" style="document" />
+    <wsdl:operation name="toPigLatin">
+      <soap:operation soapAction="http://tempuri.org/toPigLatin" style="document" />
+      <wsdl:input>
+        <soap:body use="literal" />
+      </wsdl:input>
+      <wsdl:output>
+        <soap:body use="literal" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="piglatinHttpGet" type="tns:piglatinHttpGet">
+    <http:binding verb="GET" />
+    <wsdl:operation name="toPigLatin">
+      <http:operation location="/toPigLatin" />
+      <wsdl:input>
+        <http:urlEncoded />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:binding name="piglatinHttpPost" type="tns:piglatinHttpPost">
+    <http:binding verb="POST" />
+    <wsdl:operation name="toPigLatin">
+      <http:operation location="/toPigLatin" />
+      <wsdl:input>
+        <mime:content type="application/x-www-form-urlencoded" />
+      </wsdl:input>
+      <wsdl:output>
+        <mime:mimeXml part="Body" />
+      </wsdl:output>
+    </wsdl:operation>
+  </wsdl:binding>
+  <wsdl:service name="piglatin">
+    <wsdl:port name="piglatinSoap" binding="tns:piglatinSoap">
+      <soap:address location="http://www.aspxpressway.com/maincontent/webservices/piglatin.asmx" />
+    </wsdl:port>
+    <wsdl:port name="piglatinHttpGet" binding="tns:piglatinHttpGet">
+      <http:address location="http://www.aspxpressway.com/maincontent/webservices/piglatin.asmx" />
+    </wsdl:port>
+    <wsdl:port name="piglatinHttpPost" binding="tns:piglatinHttpPost">
+      <http:address location="http://www.aspxpressway.com/maincontent/webservices/piglatin.asmx" />
+    </wsdl:port>
+  </wsdl:service>
+</wsdl:definitions>

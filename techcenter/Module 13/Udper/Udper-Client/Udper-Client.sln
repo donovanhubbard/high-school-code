@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Udper-Client", "Udper-Client\Udper-Client.csproj", "{13D00EE9-500C-4915-AE45-ACB9ADF7CAB3}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{13D00EE9-500C-4915-AE45-ACB9ADF7CAB3}.Debug.ActiveCfg = Debug|.NET
+		{13D00EE9-500C-4915-AE45-ACB9ADF7CAB3}.Debug.Build.0 = Debug|.NET
+		{13D00EE9-500C-4915-AE45-ACB9ADF7CAB3}.Release.ActiveCfg = Release|.NET
+		{13D00EE9-500C-4915-AE45-ACB9ADF7CAB3}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,29 @@
+<?xml version="1.0"?>
+
+<units xmlns
+	<unit name="Footman">
+		<race>Human</race>
+		<hp>420</hp>
+		<damage>12.5</damage>
+		<image>http://www.battle.net/war3/images/human/units/animations/footman.gif</image>
+	</unit>
+	<unit name="Grunt">
+		<race>Orc</race>
+		<hp>700</hp>
+		<damage>19.5</damage>
+		<image>http://www.battle.net/war3/images/orc/units/animations/grunt.gif</image>
+	</unit>
+	<unit name="Ghoul">
+		<race>Undead</race>
+		<hp>340</hp>
+		<damage>13</damage>
+		<image>http://www.battle.net/war3/images/undead/units/animations/ghoul.gif</image>
+	</unit>
+	<unit name="Archer">
+		<race>Night Elf</race>
+		<hp>245</hp>
+		<damage>17</damage>
+		<image>http://www.battle.net/war3/images/nightelf/units/animations/archer.gif</image>
+	</unit>
+
+</units>

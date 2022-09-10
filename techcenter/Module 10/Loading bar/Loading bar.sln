@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Loading bar", "Loading bar\Loading bar.csproj", "{C320FCF8-7022-48AF-9251-10C881FF918E}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{C320FCF8-7022-48AF-9251-10C881FF918E}.Debug.ActiveCfg = Debug|.NET
+		{C320FCF8-7022-48AF-9251-10C881FF918E}.Debug.Build.0 = Debug|.NET
+		{C320FCF8-7022-48AF-9251-10C881FF918E}.Release.ActiveCfg = Release|.NET
+		{C320FCF8-7022-48AF-9251-10C881FF918E}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

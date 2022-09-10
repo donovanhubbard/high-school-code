@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "GetBushism", "GetBushism\GetBushism.csproj", "{4B1EE357-8F4A-430D-8AEC-07A1F8A211FD}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{4B1EE357-8F4A-430D-8AEC-07A1F8A211FD}.Debug.ActiveCfg = Debug|.NET
+		{4B1EE357-8F4A-430D-8AEC-07A1F8A211FD}.Debug.Build.0 = Debug|.NET
+		{4B1EE357-8F4A-430D-8AEC-07A1F8A211FD}.Release.ActiveCfg = Release|.NET
+		{4B1EE357-8F4A-430D-8AEC-07A1F8A211FD}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,21 @@
+<?xml version="1.0" ?>
+<!-- XML Schema for units -->
+<xs:schema xmlns:xs="http://www.w3.org/2001/XMLSchema">
+   <xs:element name="units">
+      <xs:complexType>
+         <xs:sequence>
+            <xs:element name="unit" minOccurs="1" maxOccurs="unbounded">
+               <xs:complexType>
+                  <xs:sequence>
+                     <xs:element name="race" type="xs:string" minOccurs="1" maxOccurs="1" />
+                     <xs:element name="hp" type="xs:string" minOccurs="1" maxOccurs="1" />
+                     <xs:element name="damage" type="xs:string" minOccurs="1" maxOccurs="1" />
+                     <xs:element name="image" type="xs:string" minOccurs="1" maxOccurs="1" />
+                  </xs:sequence>
+                <xs:attribute name="name" type="xs:string" use="required" />
+               </xs:complexType>
+            </xs:element>
+         </xs:sequence>
+      </xs:complexType>
+   </xs:element>
+</xs:schema>

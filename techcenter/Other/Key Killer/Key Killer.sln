@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Key Killer", "Key Killer\Key Killer.csproj", "{620F421C-580B-42C9-8D3A-0641F78CC415}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{620F421C-580B-42C9-8D3A-0641F78CC415}.Debug.ActiveCfg = Debug|.NET
+		{620F421C-580B-42C9-8D3A-0641F78CC415}.Debug.Build.0 = Debug|.NET
+		{620F421C-580B-42C9-8D3A-0641F78CC415}.Release.ActiveCfg = Release|.NET
+		{620F421C-580B-42C9-8D3A-0641F78CC415}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

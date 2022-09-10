@@ -1,0 +1,7 @@
+F:\Users\donovan\My Documents\Code\Group Pirate Project\Pirate back\bin\x86\Debug\Pirate back.exe
+F:\Users\donovan\My Documents\Code\Group Pirate Project\Pirate back\bin\x86\Debug\Pirate back.pdb
+F:\Users\donovan\My Documents\Code\Group Pirate Project\Pirate back\obj\x86\Debug\Scallywags.Form1.resources
+F:\Users\donovan\My Documents\Code\Group Pirate Project\Pirate back\obj\x86\Debug\Pirate back.csproj.GenerateResource.cache
+F:\Users\donovan\My Documents\Code\Group Pirate Project\Pirate back\obj\x86\Debug\Pirate back.csproj.CoreCompileInputs.cache
+F:\Users\donovan\My Documents\Code\Group Pirate Project\Pirate back\obj\x86\Debug\Pirate back.exe
+F:\Users\donovan\My Documents\Code\Group Pirate Project\Pirate back\obj\x86\Debug\Pirate back.pdb

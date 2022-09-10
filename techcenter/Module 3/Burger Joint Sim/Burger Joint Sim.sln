@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Burger Joint Sim", "Burger Joint Sim.csproj", "{DB3D4406-EF43-47A8-8DA5-B4EA48E0BFC8}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{DB3D4406-EF43-47A8-8DA5-B4EA48E0BFC8}.Debug.ActiveCfg = Debug|.NET
+		{DB3D4406-EF43-47A8-8DA5-B4EA48E0BFC8}.Debug.Build.0 = Debug|.NET
+		{DB3D4406-EF43-47A8-8DA5-B4EA48E0BFC8}.Release.ActiveCfg = Release|.NET
+		{DB3D4406-EF43-47A8-8DA5-B4EA48E0BFC8}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal

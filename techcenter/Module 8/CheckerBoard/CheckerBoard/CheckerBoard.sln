@@ -1,0 +1,21 @@
+Microsoft Visual Studio Solution File, Format Version 8.00
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CheckerBoard", "CheckerBoard\CheckerBoard.csproj", "{D039E5B7-25AC-4DA5-80A6-0006B4974027}"
+	ProjectSection(ProjectDependencies) = postProject
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfiguration) = preSolution
+		Debug = Debug
+		Release = Release
+	EndGlobalSection
+	GlobalSection(ProjectConfiguration) = postSolution
+		{D039E5B7-25AC-4DA5-80A6-0006B4974027}.Debug.ActiveCfg = Debug|.NET
+		{D039E5B7-25AC-4DA5-80A6-0006B4974027}.Debug.Build.0 = Debug|.NET
+		{D039E5B7-25AC-4DA5-80A6-0006B4974027}.Release.ActiveCfg = Release|.NET
+		{D039E5B7-25AC-4DA5-80A6-0006B4974027}.Release.Build.0 = Release|.NET
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+	EndGlobalSection
+	GlobalSection(ExtensibilityAddIns) = postSolution
+	EndGlobalSection
+EndGlobal
