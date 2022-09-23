@@ -4,6 +4,8 @@ using System.Collections;
 using System.ComponentModel;
 using System.Windows.Forms;
 using System.Data;
+using System.Media;
+using Pirate_back.Properties;
 //using Microsoft.DirectX;
 //using Microsoft.DirectX.AudioVideoPlayback;
 //using Microsoft.DirectX.DirectSound;
@@ -34,15 +36,25 @@ namespace Scallywags
 	 * It is impossible to do this without using object oriented.
 	 */
 
+	/*
+	 * September 2022
+	 * Donovan Hubbard
+	 * 
+	 * While reviewing this code I realized that it won't work on a modern operating system so
+	 * I made the minimum amount of changes possible to get a portable executable including:
+	 * - adding the sound files as assets to the project
+	 * - fixing the resolution
+	 */
+
 	
 	public class Form1 : System.Windows.Forms.Form
-	{	
+	{
 		//internal Device soundDevice = new Device();
 		//internal SecondaryBuffernull;
 		//public SecondaryBuffer splash;
 		//internal SecondaryBuffer fire;
 		//internal SecondaryBuffer shot;
-		bool start = false;
+        bool start = false;
 		
 
 		//internal SecondaryBuffer splash;
@@ -97,18 +109,18 @@ namespace Scallywags
 			this.SetStyle(ControlStyles.DoubleBuffer, true);
 			this.SetStyle(ControlStyles.AllPaintingInWmPaint, true);
 			InitializeComponent();
-			
-			//Sound Stuff
-			//soundDevice.SetCooperativeLevel(this, CooperativeLevel.Priority);
-				
-			//boom = new SecondaryBuffer("boom.wav", soundDevice);
-			//splash = new SecondaryBuffer("poolsplash.wav", soundDevice);
-			//fire = new SecondaryBuffer("drum roll.wav", soundDevice);
-			//shot = new SecondaryBuffer("cannonShot.wav", soundDevice);
-			//splash = new SecondaryBuffer("poolsplash.wav", soundDevice);
-			//pirate = new SecondaryBuffer("pirates.mid", soundDevice);
-			
-			Larry = new Frigate(500,150,worldX,worldY,0,0,0,"Larry",Color.FromArgb(154,36,157), 500,0,0,true);
+
+            //Sound Stuff
+            //soundDevice.SetCooperativeLevel(this, CooperativeLevel.Priority);
+
+            //boom = new SecondaryBuffer("boom.wav", soundDevice);
+            //splash = new SecondaryBuffer("poolsplash.wav", soundDevice);
+            //fire = new SecondaryBuffer("drum roll.wav", soundDevice);
+            //shot = new SecondaryBuffer("cannonShot.wav", soundDevice);
+            //splash = new SecondaryBuffer("poolsplash.wav", soundDevice);
+            //pirate = new SecondaryBuffer("pirates.mid", soundDevice);
+
+            Larry = new Frigate(500,150,worldX,worldY,0,0,0,"Larry",Color.FromArgb(154,36,157), 500,0,0,true);
 			frigate1 = new Frigate(500,350,worldX - 200,worldY+5010,6,0,0,"Shelby",Color.Wheat,500,0,0,true);	
 			frigate2 = new Frigate(200,150,120,90,2,4,0,"Moe",Color.IndianRed,100,0,0,false);
 			frigate3 = new Frigate(200,150,800,25,2,4,0,"Moe",Color.LightCyan,100,0,0,false);
@@ -376,12 +388,12 @@ namespace Scallywags
 			this.Controls.Add(this.weapon2Cooldown);
 			this.Controls.Add(this.weapon1Cooldown);
 			this.Controls.Add(this.pictureBox1);
-			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.None;
+			this.FormBorderStyle = System.Windows.Forms.FormBorderStyle.Fixed3D;
 			this.MaximizeBox = false;
 			this.MinimizeBox = false;
 			this.Name = "Form1";
 			this.Text = "Pirate";
-			this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
+			//this.WindowState = System.Windows.Forms.FormWindowState.Maximized;
 			this.ResumeLayout(false);
 
 		}
@@ -396,19 +408,19 @@ namespace Scallywags
 			}
 			if(keyData == Keys.Q)
 			{
-				frigate1.FireSingle();
+                frigate1.FireSingle();
 			}
 			if(keyData == Keys.J)
 			{
-				Larry.FirePort();
+                Larry.FirePort();
 			}
 			if(keyData == Keys.L)
 			{
-				Larry.FireStarboard();
+                Larry.FireStarboard();
 			}
 			if(keyData == Keys.K)
 			{
-				Larry.FireAll();
+                Larry.FireAll();
 			}
 			
 			if( Larry.GetSlide()== 0)
@@ -513,7 +525,7 @@ namespace Scallywags
 			//x.Ending+=new EventHandler(x_Ending);
 			//frigate1.FrigateSmoke(5);
 			base.OnLoad (e);
-			Cursor.Hide();
+			//Cursor.Hide();
 				
 		}
 
@@ -803,7 +815,7 @@ namespace Scallywags
 			S3.SetXY(-3,random+29);
 			//Microsoft.DirectX.AudioVideoPlayback.Audio.FromFile("Seagull.wav",true);
 			//seagullSound.Play(0,BufferPlayFlags.Default);
-
+			
 		}
 		#endregion
 		

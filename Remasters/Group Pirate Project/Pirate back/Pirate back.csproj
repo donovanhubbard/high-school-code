@@ -135,9 +135,22 @@
     <Compile Include="Form1.cs">
       <SubType>Form</SubType>
     </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Content Include="App.ico" />
+    <None Include="assets\PIRATES.mid" />
+    <None Include="assets\bubbling.wav" />
+    <None Include="assets\seagull.wav" />
+    <None Include="assets\cannonShot.wav" />
     <EmbeddedResource Include="Form1.resx">
       <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
