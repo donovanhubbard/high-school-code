@@ -7,6 +7,8 @@ using System.Data;
 using System.Threading;
 using System.IO;
 using System.Text;
+using System.Runtime.Versioning;
+using Ultra_Space.Properties;
 
 namespace Ultra_Space
 {
@@ -153,7 +155,7 @@ namespace Ultra_Space
 				star.Draw(e);
 			}
 			
-			g.DrawImage(Image.FromFile("biometalHealther.gif"), 800, 15);
+			g.DrawImage(Resources.biometalHealther, 800, 15);
 			g.FillRectangle(Brushes.Blue, 825, 27, user.GetHp()*8, 5);
 			g.FillRectangle(Brushes.White,825, 29, user.GetHp()*8, 1);
 

@@ -2,6 +2,7 @@ using System;
 using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Windows.Forms;
+using Ultra_Space.Properties;
 
 namespace Ultra_Space
 {
@@ -50,15 +51,15 @@ namespace Ultra_Space
 			this.currentProjectile = 0;
 
 			#region Load up the explosion array
-			explosions[0] = Image.FromFile("explosion1.gif");
-			explosions[1] = Image.FromFile("explosion2.gif");
-			explosions[2] = Image.FromFile("explosion3.gif");
-			explosions[3] = Image.FromFile("explosion4.gif");
-			explosions[4] = Image.FromFile("explosion5.gif");
-			explosions[5] = Image.FromFile("explosion6.gif");
-			#endregion
+			explosions[0] = Resources.explosion1;
+			explosions[1] = Resources.explosion2;
+            explosions[2] = Resources.explosion3;
+            explosions[3] = Resources.explosion4;
+            explosions[4] = Resources.explosion5;
+            explosions[5] = Resources.explosion6;
+            #endregion
 
-		}
+        }
 		public Ship(int frame, int x, int y)
 		{
 			this.alive = true;
@@ -69,16 +70,16 @@ namespace Ultra_Space
 			this.exploding = false;
 			this.currentProjectile = 0;
 
-			#region Load up the explosion array
-			explosions[0] = Image.FromFile("explosion1.gif");
-			explosions[1] = Image.FromFile("explosion2.gif");
-			explosions[2] = Image.FromFile("explosion3.gif");
-			explosions[3] = Image.FromFile("explosion4.gif");
-			explosions[4] = Image.FromFile("explosion5.gif");
-			explosions[5] = Image.FromFile("explosion6.gif");
-			#endregion
+            #region Load up the explosion array
+            explosions[0] = Resources.explosion1;
+            explosions[1] = Resources.explosion2;
+            explosions[2] = Resources.explosion3;
+            explosions[3] = Resources.explosion4;
+            explosions[4] = Resources.explosion5;
+            explosions[5] = Resources.explosion6;
+            #endregion
 
-		}
+        }
 		public Ship()
 		{
 			Random r = new Random();
@@ -90,15 +91,15 @@ namespace Ultra_Space
 			this.exploding = false;
 			this.currentProjectile = 0;
 
-			#region Load up the explosion array
-			explosions[0] = Image.FromFile("explosion1.gif");
-			explosions[1] = Image.FromFile("explosion2.gif");
-			explosions[2] = Image.FromFile("explosion3.gif");
-			explosions[3] = Image.FromFile("explosion4.gif");
-			explosions[4] = Image.FromFile("explosion5.gif");
-			explosions[5] = Image.FromFile("explosion6.gif");
-			#endregion
-		}
+            #region Load up the explosion array
+            explosions[0] = Resources.explosion1;
+            explosions[1] = Resources.explosion2;
+            explosions[2] = Resources.explosion3;
+            explosions[3] = Resources.explosion4;
+            explosions[4] = Resources.explosion5;
+            explosions[5] = Resources.explosion6;
+            #endregion
+        }
 
 
 		public void FlipImages()

@@ -1,5 +1,6 @@
 using System;
 using System.Drawing;
+using Ultra_Space.Properties;
 
 namespace Ultra_Space
 {
@@ -10,8 +11,8 @@ namespace Ultra_Space
 	{
 		public Cannon(int x, int y) : base(x,y)
 		{
-			this.projectile[0] = Image.FromFile("Cannon1.gif");
-			this.projectile[1] = Image.FromFile("Cannon2.gif");
+			this.projectile[0] = Resources.Cannon1;
+			this.projectile[1] = Resources.Cannon2;
 			this.currentImage = this.projectile[0];
 			this.maxSpeed = 10;
 			this.damage = 5;

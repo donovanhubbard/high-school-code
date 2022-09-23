@@ -162,6 +162,11 @@
     <Compile Include="Projectile.cs">
       <SubType>Code</SubType>
     </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="PShip.cs">
       <SubType>Code</SubType>
     </Compile>
@@ -175,6 +180,36 @@
       <SubType>Code</SubType>
     </Compile>
     <Content Include="App.ico" />
+    <None Include="assets\biometalHealther.gif" />
+    <None Include="assets\biometalSplash.bmp" />
+    <None Include="assets\biometalTitle.gif" />
+    <None Include="assets\Boss1.gif" />
+    <None Include="assets\Cannon1.gif" />
+    <None Include="assets\Cannon2.gif" />
+    <None Include="assets\cargo.gif" />
+    <None Include="assets\explosion1.gif" />
+    <None Include="assets\explosion2.gif" />
+    <None Include="assets\explosion3.gif" />
+    <None Include="assets\explosion4.gif" />
+    <None Include="assets\explosion5.gif" />
+    <None Include="assets\explosion6.gif" />
+    <None Include="assets\fish.gif" />
+    <None Include="assets\health.gif" />
+    <None Include="assets\plasma1.gif" />
+    <None Include="assets\plasma2.gif" />
+    <None Include="assets\plasma3.gif" />
+    <None Include="assets\plasma4.gif" />
+    <None Include="assets\pShip1.gif" />
+    <None Include="assets\pShip2.gif" />
+    <None Include="assets\pShip3.gif" />
+    <None Include="assets\SShip1.gif" />
+    <None Include="assets\SShip2.gif" />
+    <None Include="assets\SShip3.gif" />
+    <None Include="assets\SShip4.gif" />
+    <None Include="assets\SShip5.gif" />
+    <None Include="assets\SShip6.gif" />
+    <None Include="assets\SShip7.gif" />
+    <None Include="assets\star.gif" />
     <Content Include="Icon1.ico" />
     <EmbeddedResource Include="About.resx">
       <DependentUpon>About.cs</DependentUpon>
@@ -191,6 +226,10 @@
     <EmbeddedResource Include="How.resx">
       <DependentUpon>How.cs</DependentUpon>
     </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
   </ItemGroup>
   <ItemGroup>
     <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
@@ -199,6 +238,7 @@
       <Install>true</Install>
     </BootstrapperPackage>
   </ItemGroup>
+  <ItemGroup />
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <PropertyGroup>
     <PreBuildEvent />

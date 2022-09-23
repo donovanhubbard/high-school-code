@@ -1,6 +1,7 @@
 using System;
 using System.Drawing;
 using System.Drawing.Drawing2D;
+using Ultra_Space.Properties;
 
 namespace Ultra_Space
 {
@@ -12,10 +13,10 @@ namespace Ultra_Space
 		{
 			//g = new GraphicsPath();
 			this.maxSpeed = 12;
-			this.projectile[0] = Image.FromFile("plasma1.gif");
-			this.projectile[1] = Image.FromFile("plasma2.gif");
-			this.projectile[2] = Image.FromFile("plasma3.gif");
-			this.projectile[3] = Image.FromFile("plasma4.gif");
+			this.projectile[0] = Resources.plasma1;
+			this.projectile[1] = Resources.plasma1;
+			this.projectile[2] = Resources.plasma1;
+			this.projectile[3] = Resources.plasma1;
 			this.currentImage = this.projectile[0];
 			this.damage = 1;
 		}

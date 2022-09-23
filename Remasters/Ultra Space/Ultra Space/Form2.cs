@@ -3,6 +3,7 @@ using System.Drawing;
 using System.Collections;
 using System.ComponentModel;
 using System.Windows.Forms;
+using Ultra_Space.Properties;
 
 namespace Ultra_Space
 {
@@ -22,7 +23,7 @@ namespace Ultra_Space
 			// Required for Windows Form Designer support
 			//
 			Cursor.Hide();
-			this.BackgroundImage = Image.FromFile("biometalSplash.bmp");
+			this.BackgroundImage = Resources.biometalSplash;
 			InitializeComponent();
 
 			//

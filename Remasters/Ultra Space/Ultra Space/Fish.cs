@@ -1,5 +1,6 @@
 using System;
 using System.Drawing;
+using Ultra_Space.Properties;
 
 namespace Ultra_Space
 {
@@ -23,7 +24,7 @@ namespace Ultra_Space
 			this.acceleration = 1.5f;
 
 			#region load up the ships images
-			this.ship[0] = Image.FromFile("fish.gif");
+			this.ship[0] = Resources.fish;
 			#endregion
 
 			this.ChangeImage(this.ship[0]);

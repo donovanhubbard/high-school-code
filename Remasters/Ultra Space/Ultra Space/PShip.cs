@@ -1,5 +1,6 @@
 using System;
 using System.Drawing;
+using Ultra_Space.Properties;
 
 namespace Ultra_Space
 {
@@ -21,12 +22,12 @@ namespace Ultra_Space
 			this.acceleration = 1f;
 
 			#region load up the ships images
-			this.ship[0] = Image.FromFile("pShip1.gif");
-			this.ship[1] = Image.FromFile("pShip2.gif");
-			this.ship[2] = Image.FromFile("pShip3.gif");
-			#endregion
+			this.ship[0] = Resources.pShip1;
+			this.ship[1] = Resources.pShip2;
+            this.ship[2] = Resources.pShip3;
+            #endregion
 
-			this.ChangeImage(this.ship[0]);
+            this.ChangeImage(this.ship[0]);
 
 			#region Initalize the plasma array
 			for(int i=0; i<projectiles.Length; i++)

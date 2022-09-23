@@ -1,5 +1,6 @@
 using System;
 using System.Drawing;
+using Ultra_Space.Properties;
 
 namespace Ultra_Space
 {
@@ -14,7 +15,7 @@ namespace Ultra_Space
 			this.xSpeed = -1 * this.maxSpeed;
 			this.maxHP = 4;
 			this.hp = this.maxHP;
-			this.ship[0] = Image.FromFile("cargo.gif");
+			this.ship[0] = Resources.cargo;
 			this.ChangeImage(this.ship[0]);
 			this.projectiles = new Projectile[1];
 			this.projectiles[0] = new Plasma(0,0);
@@ -25,7 +26,7 @@ namespace Ultra_Space
 			this.xSpeed = -1 * this.maxSpeed;
 			this.maxHP = 4;
 			this.hp = this.maxHP;
-			this.ship[0] = Image.FromFile("cargo.gif");
+			this.ship[0] = Resources.cargo;
 			this.ChangeImage(this.ship[0]);
 			this.projectiles = new Projectile[1];
 			this.projectiles[0] = new Plasma(0,0);

@@ -3,6 +3,7 @@ using System.Drawing;
 using System.Drawing.Drawing2D;
 using System.Threading;
 using System.Collections;
+using Ultra_Space.Properties;
 
 namespace Ultra_Space
 {
@@ -35,7 +36,7 @@ namespace Ultra_Space
 			this.acceleration = this.maxSpeed;
 
 			#region load up the ships images
-			this.ship[0] = Image.FromFile("Boss1.gif");
+			this.ship[0] = Resources.Boss1;
 			#endregion
 
 			this.ChangeImage(this.ship[0]);

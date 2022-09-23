@@ -1,5 +1,6 @@
 using System;
 using System.Drawing;
+using Ultra_Space.Properties;
 
 namespace Ultra_Space
 {
@@ -23,12 +24,12 @@ namespace Ultra_Space
 			this.acceleration = 1.5f;
 
 			#region load up the ships images
-			this.ship[0] = Image.FromFile("SShip1.gif");
-			this.ship[1] = Image.FromFile("SShip2.gif");
-			this.ship[2] = Image.FromFile("SShip3.gif");
-			this.ship[3] = Image.FromFile("SShip4.gif");
-			this.ship[4] = Image.FromFile("SShip5.gif");
-			this.ship[5] = Image.FromFile("SShip6.gif");
+			this.ship[0] = Resources.SShip1;
+			this.ship[1] = Resources.SShip2;
+			this.ship[2] = Resources.SShip3;
+			this.ship[3] = Resources.SShip4;
+			this.ship[4] = Resources.SShip5;
+			this.ship[5] = Resources.SShip6;
 			//this.ship[6] = Image.FromFile("SShip7.gif");
 			#endregion
 
@@ -59,17 +60,17 @@ namespace Ultra_Space
 
 			this.acceleration = 1.5f;
 
-			#region load up the ships images
-			this.ship[0] = Image.FromFile("SShip1.gif");
-			this.ship[1] = Image.FromFile("SShip2.gif");
-			this.ship[2] = Image.FromFile("SShip3.gif");
-			this.ship[3] = Image.FromFile("SShip4.gif");
-			this.ship[4] = Image.FromFile("SShip5.gif");
-			this.ship[5] = Image.FromFile("SShip6.gif");
-			//this.ship[6] = Image.FromFile("SShip7.gif");
-			#endregion
+            #region load up the ships images
+            this.ship[0] = Resources.SShip1;
+            this.ship[1] = Resources.SShip2;
+            this.ship[2] = Resources.SShip3;
+            this.ship[3] = Resources.SShip4;
+            this.ship[4] = Resources.SShip5;
+            this.ship[5] = Resources.SShip6;
+            //this.ship[6] = Image.FromFile("SShip7.gif");
+            #endregion
 
-			this.ChangeImage(this.ship[slide]);
+            this.ChangeImage(this.ship[slide]);
 
 			#region Initalize the plasma array
 			for(int i=0; i<projectiles.Length; i++)
@@ -96,17 +97,17 @@ namespace Ultra_Space
 
 			this.acceleration = 1.5f;
 
-			#region load up the ships images
-			this.ship[0] = Image.FromFile("SShip1.gif");
-			this.ship[1] = Image.FromFile("SShip2.gif");
-			this.ship[2] = Image.FromFile("SShip3.gif");
-			this.ship[3] = Image.FromFile("SShip4.gif");
-			this.ship[4] = Image.FromFile("SShip5.gif");
-			this.ship[5] = Image.FromFile("SShip6.gif");
-			//this.ship[6] = Image.FromFile("SShip7.gif");
-			#endregion
+            #region load up the ships images
+            this.ship[0] = Resources.SShip1;
+            this.ship[1] = Resources.SShip2;
+            this.ship[2] = Resources.SShip3;
+            this.ship[3] = Resources.SShip4;
+            this.ship[4] = Resources.SShip5;
+            this.ship[5] = Resources.SShip6;
+            //this.ship[6] = Image.FromFile("SShip7.gif");
+            #endregion
 
-			this.ChangeImage(this.ship[0]);
+            this.ChangeImage(this.ship[0]);
 
 			#region Initalize the plasma array
 			for(int i=0; i<projectiles.Length; i++)
