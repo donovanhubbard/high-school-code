@@ -1,8 +1,0 @@
-F:\Users\donovan\My Documents\Code\Group Pirate Project\Pirate back\bin\Debug\Pirate back.exe
-F:\Users\donovan\My Documents\Code\Group Pirate Project\Pirate back\bin\Debug\Pirate back.pdb
-F:\Users\donovan\My Documents\Code\Group Pirate Project\Pirate back\obj\Debug\Pirate back.csprojResolveAssemblyReference.cache
-F:\Users\donovan\My Documents\Code\Group Pirate Project\Pirate back\obj\Debug\Scallywags.Form1.resources
-F:\Users\donovan\My Documents\Code\Group Pirate Project\Pirate back\obj\Debug\Pirate back.csproj.GenerateResource.cache
-F:\Users\donovan\My Documents\Code\Group Pirate Project\Pirate back\obj\Debug\Pirate back.csproj.CoreCompileInputs.cache
-F:\Users\donovan\My Documents\Code\Group Pirate Project\Pirate back\obj\Debug\Pirate back.exe
-F:\Users\donovan\My Documents\Code\Group Pirate Project\Pirate back\obj\Debug\Pirate back.pdb

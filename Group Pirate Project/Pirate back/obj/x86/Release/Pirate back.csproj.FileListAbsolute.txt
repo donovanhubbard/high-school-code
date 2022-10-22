@@ -1,5 +1,0 @@
-F:\Users\donovan\My Documents\Code\Group Pirate Project\Pirate back\bin\x86\Release\Pirate back.exe
-F:\Users\donovan\My Documents\Code\Group Pirate Project\Pirate back\obj\x86\Release\Scallywags.Form1.resources
-F:\Users\donovan\My Documents\Code\Group Pirate Project\Pirate back\obj\x86\Release\Pirate back.csproj.GenerateResource.cache
-F:\Users\donovan\My Documents\Code\Group Pirate Project\Pirate back\obj\x86\Release\Pirate back.csproj.CoreCompileInputs.cache
-F:\Users\donovan\My Documents\Code\Group Pirate Project\Pirate back\obj\x86\Release\Pirate back.exe

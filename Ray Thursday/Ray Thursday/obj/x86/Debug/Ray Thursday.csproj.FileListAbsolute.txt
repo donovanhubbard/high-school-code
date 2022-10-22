@@ -1,7 +1,0 @@
-F:\Users\donovan\My Documents\Code\Ray Thursday\Ray Thursday\bin\x86\Debug\Ray Thursday.exe
-F:\Users\donovan\My Documents\Code\Ray Thursday\Ray Thursday\bin\x86\Debug\Ray Thursday.pdb
-F:\Users\donovan\My Documents\Code\Ray Thursday\Ray Thursday\obj\x86\Debug\RayDude.Form1.resources
-F:\Users\donovan\My Documents\Code\Ray Thursday\Ray Thursday\obj\x86\Debug\Ray Thursday.csproj.GenerateResource.cache
-F:\Users\donovan\My Documents\Code\Ray Thursday\Ray Thursday\obj\x86\Debug\Ray Thursday.csproj.CoreCompileInputs.cache
-F:\Users\donovan\My Documents\Code\Ray Thursday\Ray Thursday\obj\x86\Debug\Ray Thursday.exe
-F:\Users\donovan\My Documents\Code\Ray Thursday\Ray Thursday\obj\x86\Debug\Ray Thursday.pdb
